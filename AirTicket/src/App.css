@@ -1,0 +1,44 @@
+:root{
+  background-color: #f6faff;
+  --sidebar-active-bg:#4690f6;
+  --main-container-bg:#ecf3fe;
+}
+
+.sidebar{
+  width: 200px;
+  height: 100vh;
+  margin: 0 10px;
+}
+
+
+
+.navigation-links ul{
+  list-style: none;
+  text-align: center;
+  
+}
+
+.navigation-links ul li{
+  margin: 15px 0px;
+  padding: 8px 0;
+}
+
+.navigation-links ul li.active{
+  background-color: var(--sidebar-active-bg);
+  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.navigation-links ul li.active a{
+  color: #fff;
+}
+.navigation-links ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.main-container{
+  background-color: var(--main-container-bg);
+  width: 100vb;
+  padding: 15px;
+}
